@@ -18,10 +18,3 @@ def get_values(file_name):
 	    	else:
 	    		pass
 	    return 0
-		
-
-if __name__ == "__main__":
-	#test field
-	change_value("exemple", 1)
-	get_values("exemple")
-	
