@@ -11,7 +11,3 @@ def create_text(page, arch):
 	text = arch[page].extractText()
 	content = "".join(c for c in text if c is not "")
 	return content
-#	
-if __name__ == "__main__":
-	text = extract_text("exemple.pdf")
-	print("".join(f"{content} \n\n\n" for content in text))
